@@ -1,0 +1,87 @@
+/* Body style */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 173, 219);
+}
+
+/* title style (Contact-list) */
+h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;    
+    color: #fff;
+}
+
+
+
+#idForm {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#idForm h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+form label {
+    display: inline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+form input[type="text"]{
+    width: 350px;
+    padding: 6px;
+}
+
+form input[type="number"]{
+    width: 150px;
+    padding: 6px;
+}
+
+form button {
+    margin-left: 24px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    
+}
+
+table th {
+    border: 1px solid #000000;    /* Aplying a border around the table's headers*/
+    padding: 20px;
+    background-color: #fff;
+}
+
+table tbody tr {
+    background-color: #fff
+}
+
+table tbody {
+    text-align: center;
+    
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}

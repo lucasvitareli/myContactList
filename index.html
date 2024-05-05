@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-list</title>
+    <!-- Inserting new fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>My Contact-list</h1>
+
+    <div id="idForm">
+        <!-- Defining name and telephone inputs on a form-->
+        <h2>Add a new contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="telephone">Phone Number: </label>
+            <input type="tel" id="telephone"required maxlength="14" placeholder="(00)12345-6789">
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+
+    <div id="idTable">
+        <!-- Creating a table list for the saved Names and Telephone numbers-->
+        <table>
+            <thead>
+                <tr>
+                    <th>CONTACT NAME</th>
+                    <th>PHONE NUMBER</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!-- JavaScript content -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
